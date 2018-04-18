@@ -8,7 +8,7 @@ describe('Tài khoản phụ huynh', function() {
       cy.get('#user_email').type('hoangtudaiduong19051996@gmail.com');
       cy.get('#user_password').type('12345678');
       cy.get('#new_user > div:nth-child(6) > input').click();
-      cy.wait(4000);
+      cy.wait(5000);
       cy.get('#navbarSupportedContent > ul.navbar-nav.mr-auto.ng-scope > li:nth-child(1) > a').click();
       cy.get('body > div > div > div.content-body.ng-scope > div > div > div > div > div.col-md-9.col-xs-12.ng-scope > div > div.col-md-8.mx-auto.col-xs-12 > button:nth-child(2)').click();
       cy.get('body > div > div > div.content-body.ng-scope > div > div > div > div > div.col-md-9.col-xs-12.ng-scope > div > div.col-md-12.ng-scope > div > div.text-right > button').click();
@@ -35,7 +35,7 @@ describe('Tài khoản phụ huynh', function() {
       cy.get('#user_email').type('hoangtudaiduong19051996@gmail.com');
       cy.get('#user_password').type('12345678');
       cy.get('#new_user > div:nth-child(6) > input').click();
-      cy.wait(4000);
+      cy.wait(5000);
       cy.get('#navbarSupportedContent > ul.navbar-nav.mr-auto.ng-scope > li:nth-child(2) > a').click();
     })
 
